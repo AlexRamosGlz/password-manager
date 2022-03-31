@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0%;
+}
+
+.flex {
+  display: flex;
+}
+
+.content {
+  margin: 10px;
+  text-align: center;
+  max-width: calc(100vw - 250px);
+}
+
+.nav__bar {
+  transition: all 0.3s;
+  width: 200px;
+  height: 100vh;
+  background-color: #060b26;
+  border-right: solid 1px rgb(87, 71, 71);
+  justify-content: center;
+
+  ul {
+    list-style: none;
+    margin-block-start: 0;
+  }
+
+  h2 {
+    height: 20px;
+    width: inherit;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+.navLink {
+  color: white;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+.nav__bar li :hover {
+  transition: all 0.2s;
+  background-color: #2f89fc;
+}
+
+.navLink__selected {
+  transition: all 0.3s;
+}
+
+.hidden {
+  transition: all 0.3s;
+  transform: translateX(-200px);
+}
+
+.home {
+  background-image: url("thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg");
+}
+
+.top__bar {
+  height: 30px;
+
+  text-align: center;
+  border-bottom: 0.5px solid #444;
+  background-color: rgb(255, 132, 132);
+  margin-top: 0%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+  button {
+    margin-left: 25px;
+    height: 29px;
+    width: 50px;
+  }
+
+  input {
+    border-radius: 25px;
+    border: none;
+    width: 20rem;
+    height: 1.5rem;
+
+    text {
+      text-align: center;
+    }
+  }
+}
+
+.search_bar_group {
+  padding: 0;
+}
+
+.topBar__icon {
+  transition: all 0.2s;
+  width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+.button_top_bar {
+  margin-left: 25px;
+  height: 29px;
+  width: 30px;
+}
+
+.password__content {
+  ul {
+    display: block;
+    list-style: none;
+
+    li {
+      padding: 5px;
+      margin: 5px;
+    }
+  }
+}
